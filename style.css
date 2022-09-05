@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-image: url(bgimage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 1px;
+}
+
+.form-container {
+    /* background-color: hsla(233, 100%, 84%, 0.261); */
+    backdrop-filter: blur(10px);
+    height: 80vh;
+    width: 80vw;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 10px;
+    border-radius: 1rem;
+    /* give it resistivity effect */
+    box-shadow: 5px 3px 10px 2px hsl(0, 0%, 100%), -5px -5px 10px hsl(0, 0%, 11%);
+}
+
+.form-container img {
+    display: block;
+    width: 30vw;
+    max-width: 200px;
+    /* height: 40vw;
+    border-radius: 50%;
+    object-fit: cover; */
+    margin: 1rem auto;
+}
+form {
+    width: 90%;
+    margin: 3rem auto;
+}
+form label {
+    color: hsl(0, 0%, 77%);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: hsla(208, 100%, 97%, 0.278);
+    color: hsl(208, 100%, 93%);
+}
+
+.password input {
+    /* distance between password letters */
+    letter-spacing: 1ch;
+}
+
+.password input {
+    /* distance between password letters */
+    letter-spacing: 1ch;
+}
+
+form button {
+    margin: 3rem 0;
+    width: 4rem;
+    padding: 0.5rem;
+    background-color: hsl(180, 100%, 70%);
+    color: hsl(0, 0%, 100%);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    /* give it resistivity effect */
+    box-shadow: 1px 1px 2px hsl(0, 0%, 100%), -1px -1px 2px black;
+}
+
+/* form, fieldset {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+} */
+
+/* input {
+    border: 1px solid gray;
+    background-color: rgb(242, 242, 242);
+    padding: 0.5em;
+    margin-bottom: 5px;
+    width: 80%;
+     input display is: replaceable inline
+} */
+
+/* button {
+    background-color: hsl(210, 100%, 63%);
+    border: 0;
+    padding: 1em;
+    color: white;
+} */

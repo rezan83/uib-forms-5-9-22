@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <img src="wolf.jpg" alt="profile picture">
+                <form>
+
+                    <div class="username">
+                        <label for="username">User Name</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 
+            there are two types of inline:
+            non replaceable
+            replaceable(img, input ,video) = act like inline-block
+            transform doesn't work on non replaceable
+            ::after/before don't work on replaceable inline like img
+        -->
+        <!-- <img src="imag.png" alt=""> -->
+
+        <!-- ####### form basics: ########## -->
+         <!--
+            <form>
+            <fieldset>
+                <legend>User Info</legend>
+                <div>
+                    <label for="username">User Name</label>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Jon Doe"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="8 characters at least"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="name@corp.com"
+                    />
+                </div>
+                <div>
+                    <label for="job">Job</label>
+                    <input
+                        type="text"
+                        name="job"
+                        id="job"
+                        value="Web Developer"
+                    />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <div>
+                    <label for="javascript" id="js">JavaScript</label>
+                    <input
+                        type="checkbox"
+                        name="preferences"
+                        id="javascript"
+                        value="javascript"
+                        checked
+                    />
+                </div>
+                <div>
+                    <label for="python">Python</label>
+                    <input
+                        type="checkbox"
+                        name="preferences"
+                        id="python"
+                        value="python"
+                    />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <label for="level">Your Level</label>
+                <select name="level" id="level">
+                    <option value="" disabled selected>Select Level</option>
+                    <option value="beginner"  >Beginner</option>
+                    <option value="mid-level" >Mid-Level</option>
+                    <option value="advanced" >Advanced</option>
+
+                </select>
+            </fieldset>
+            <fieldset>
+                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form> -->
+    </body>
+</html>
